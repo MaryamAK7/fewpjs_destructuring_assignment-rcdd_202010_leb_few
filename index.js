@@ -34,7 +34,7 @@ let [moo, neigh, baa, oink, cluck]= farmAnimals.split(' ');
 let [Bessie, ,Dolly, Babe, Little]= farmAnimals.split(' ');
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
-  let [black_and_white, , black, pink] = farmAnimals.split(" ");
+  let [black_and_white, , black, pink,] = farmAnimals.split(" ");
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
@@ -51,6 +51,5 @@ let [ , , , , , indg, ]= colors;
 let {name,color,song,job, partner}= muppet;
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
-let {song_2} = k_muppet.k_album.k_muppet_movie;
-let {song_4} = k_muppet.k_album.k_muppet_movie;
+let { song_2, song_4} = k_muppet.k_album.the_muppet_movie;
 let {k_color,k_job,k_partner} = k_muppet;
